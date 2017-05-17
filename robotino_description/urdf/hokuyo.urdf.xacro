@@ -18,7 +18,7 @@
       </inertial>
 
       <visual>
-        <origin xyz="0 0 0" rpy="0 0 ${M_PI/2}" />
+        <origin xyz="0 0 -0.05" rpy="0 0 ${M_PI/2}" />
         <geometry>
           <mesh filename="package://robotino_description/meshes/RobotinoLaserScanner.dae" scale="${M_SCALE} ${M_SCALE} ${M_SCALE}"/>
         </geometry>
@@ -33,7 +33,7 @@
     </link>
     
     <!-- gazebo extensions -->
-    <xacro:hokuyo_gazebo name="${name}" ros_topic="scan" update_rate="10" min_angle="-2.3562" max_angle="2.3562"/>
+    <xacro:hokuyo_gazebo name="${name}" ros_topic="scan" update_rate="10" min_angle="-2.2689" max_angle="2.2689"/>
     
   </xacro:macro>
 

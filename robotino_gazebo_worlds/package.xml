@@ -3,7 +3,7 @@
   <version>0.0.0</version>
   <description>This package provides some worlds for gazebo simulation.</description>
 
-  <license>LGPL</license>
+  <license>BSD</license>
 
   <maintainer email="nhg@ipa.fhg.de">Nadia Hammoudeh Garcia</maintainer>
   <author email="nhg@ipa.fhg.de">Nadia Hammoudeh Garcia</author>
@@ -18,6 +18,8 @@
   <run_depend>kdl_parser</run_depend>
   <run_depend>robot_state_publisher</run_depend>
   <run_depend>joint_state_publisher</run_depend>
+  <run_depend>cob_gazebo_worlds</run_depend>
+  <run_depend>cob_gazebo_objects</run_depend>
 
   <export>
     <gazebo_ros gazebo_media_path="${prefix}"/>
